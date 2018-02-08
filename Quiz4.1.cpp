@@ -9,17 +9,17 @@ int main()
 	{
 		if ((num1 % 50 == 0) && (num1 % 33 == 0)) 
 		{
-			cout << num1 << "FOOBAR" << endl;
+			cout << num1 << " FOO BAR " << endl;
 			++num1;
 		}
 		else if (num1 % 50 == 0)
 		{
-			cout << num1 << "FOO" << endl;
+			cout << num1 << " FOO " << endl;
 			++num1;
 		}
 		else if (num1 % 33 == 0)
 		{
-			cout << num1 << "BAR" << endl;
+			cout << num1 << " BAR " << endl;
 			++num1;
 
 		}
